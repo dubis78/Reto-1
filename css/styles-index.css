@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Rubik&display=swap');
+:root{
+    --verde-oscuro:#009688;
+    --verde-claro:#B2DFDB;
+    --blanco: #ffffff;
+    --negro: #000000;
+    --gris-oscuro: #54585a;
+    --gris-claro: #b8b8b9;
+    --gris-de-fondo: #f1f1f1;
+}
+
 /*           estilos CSS header Julieth                            */ 
 
 
@@ -18,13 +29,9 @@
 
 
 /*           estilos CSS main Dubenis                                */ 
-
-/*esto es un comentario prueba de hoja estilo en rama index-main*/
-/*esto es un comentario prueba de hoja estilo en rama index-main*/
-
-
-
-
+.icon-container i{
+    color:var(--verde-oscuro);
+}
 
 
 
