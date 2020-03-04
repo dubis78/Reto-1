@@ -1,11 +1,23 @@
-/*           estilos CSS header Julieth                            */ 
+/*           estilos CSS header Julieth   
+                         */ 
+:root{
+    --verde-oscuro:#009688;
+    --verde-claro:#B2DFDB;
+
+}
 #name{
-    background-color:#009688;
+    background-color:var(--verde-oscuro);
 }
 #links{
-    background-color: #B2DFDB;
+    background-color:var(--verde-claro) ;
 }
-
+#fondo {
+    
+    background-image: url('https://www.okchicas.com/wp-content/uploads/2016/05/Ideas-de-fotos-para-mejores-amigas-5-703x700.jpg');
+   
+    background-repeat: no-repeat;
+  
+}
 
 
 
