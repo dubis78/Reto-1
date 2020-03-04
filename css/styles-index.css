@@ -7,6 +7,31 @@
     
 
 }
+@media (min-width:1200px){
+    #name{
+        background-color:var(--verde-oscuro);
+        opacity: 0.9;
+    }
+    #links {
+        background-color:var(--verde-claro) ;
+        color: white;
+        opacity: 0.7;
+        text-align: center;
+    }
+}
+/*TAMAÑO HEADER RESPONSIVE */
+@media (max-width: 768px){
+    .header{
+        padding-bottom: 421px;
+    }
+    #name{
+        background-color: var(--verde-oscuro);opacity: 1;
+    }
+    #links{
+        background-color:var(--verde-claro) ;
+    }
+
+}
 
 
 /* RESPONSIVE*/
@@ -22,10 +47,7 @@
         text-align: center;
     }
    
-    .header{
-       max-width: auto;
-       height: auto;
-    }
+    
 }
 /*ESTILOS PARA LOS ID*/
 .header{
@@ -38,21 +60,14 @@
    
 }
 
-#name{
-    background-color:var(--verde-oscuro);
-    opacity: 0.9;
-}
-#links {
-    background-color:var(--verde-claro) ;
-    color: white;
-    opacity: 0.9;
-    text-align: center;
-}
+
+
 
 #comentario-imagen{
     background-color: var(--blanco);
     width: 65%; font-size: 24px;
     font-family: 'Open Sans', sans-serif;
+    opacity:0.9;
     
 }
 
