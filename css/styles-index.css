@@ -7,6 +7,9 @@
     
 
 }
+
+
+/* RESPONSIVE*/
 @media (max-width:573px){
     #comentario-imagen{
        
@@ -18,32 +21,28 @@
     #links{
         text-align: center;
     }
-    .contenedor-letra-imagen{
-        display: flex;
-        justify-content: center;
-       align-items:center ;
-         width: max-content;
+   
+    .header{
+       max-width: auto;
+       height: auto;
     }
 }
-
+/*ESTILOS PARA LOS ID*/
 .header{
-    position:fixed;
-    overflow: hidden;
-    width: 100%;
-    background-color: blue;
+   
+    padding-bottom: 550px;
     background-image: url("https://scontent.feoh6-1.fna.fbcdn.net/v/t1.0-9/s960x960/88111620_1689593224514420_6032739251831963648_o.jpg?_nc_cat=109&_nc_sid=730e14&_nc_eui2=AeFvnrhVMpPAtI_IlaOtBFVgIbyDkEC13VpnRVaVJxfbMpyeSbQoNi98PyBTTcq9kSFjhohHzcqzlES16QTDSa7TraJJGF5xl_mwmEfxSkhUGw&_nc_ohc=a6U5Iz8ml04AX885W3O&_nc_ht=scontent.feoh6-1.fna&_nc_tp=7&oh=c29d151063647f5bc3455e73d0056606&oe=5E9A0C42");
-    min-height: 361px;
-        /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
    
 }
+
 #name{
     background-color:var(--verde-oscuro);
-    opacity: 0.7;
+    opacity: 0.9;
 }
-#links #ul-links{
+#links {
     background-color:var(--verde-claro) ;
     color: white;
     opacity: 0.9;
@@ -52,12 +51,8 @@
 
 #comentario-imagen{
     background-color: var(--blanco);
-   
-    
+    width: 65%; font-size: 24px;
     font-family: 'Open Sans', sans-serif;
-    position: center;
-   
-   
     
 }
 
