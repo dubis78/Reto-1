@@ -18,45 +18,50 @@
     </header>
     <main>
         <!--                                  Carolina                                                -->
-        <div class="container">
-            <div class="row">
+        <div class="icon-container icon-container-carolina d-flex justify-content-center ">
+            <div class="row justify-content-center">
                 <div class="col">
                     <div class="pb-2 bg-danger">
-                        <h1>CONTACTO</h1>
-                        <p class="p-3"> ¿Qué podemos hacer por ti?, porque queremos ayudarte, y estamos al otro lado de
+                        <h1 style="text-align:center">CONTACTO</h1>
+                        <p class="p-3 text-justify"> ¿Qué podemos hacer por ti?, porque queremos ayudarte, y estamos al otro lado de
                             la pantalla para
                             hacerlo. ¡Así que no esperes más y llena el siguente formulario para comunicarnos contigo!
                         </p>
-                        <p class="p-3">Todos los campos marcados con <span>*</span> son obligatorios.</p>
+                        <p class="p-3" style="text-align:center"><small>Todos los campos marcados con <span>*</span> son obligatorios.</small></p>
                     </div>
                 </div>
 
-                <div class="col-md-6 bg-info">
                     <form action="" class="main-form" method="POST">
                         <fieldset class="form-group ">
-                            <label for="name">Nombre completo <span>*</span></label>
+                            <label for="name">Nombre completo <span class="text-info">*</span></label>
                             <input id="name" type="text" name="nombre" class="form-control" placeholder="Nombre..."
                                 required="">
                         </fieldset>
-
-                        <fieldset class="form-group ">
-                            <label for="email">Email <span>*</span></label>
+                        <div class="row justify-content-center">
+                        <fieldset class="form-group col-7">
+                            <label for="email">Email <span class="text-info">*</span></label>
                             <input id="email" type="email" name="correo" class="form-control" placeholder="Correo..."
                                 required=""
                                 pattern="[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{1,5}">
                         </fieldset>
-                    </form>
-                </div>
+                            <div class="col-1"></div>
+                        <fieldset class="form-group col-3">
+                            <label for="number">Teléfono</label>
+                            <input id="number" type="number" name="telefono" class="form-control" placeholder="Ej: 12345678"
+                                required="">
+                        </div>
+                        </fieldset>
+                        <fieldset class="form-group col-12">
+                            <label for="name">Mensaje</label><span class="text-info">*</span></label>
+                            <textarea name="mensajes" id="mensajes" cols="30" rows="10" placeholder="¿Qué necesitas?"></textarea>
+                        </fieldset>
+                    </div>
+                    <button type="button" class="btn btn-info">Enviar</button>
+                 </form>
+                       
             </div>
         </div>
-
-
-        <!--  /////////////////////////////////////////////////////////////////////////////////////   -->
-
-
-
-        <!--                                   Laura                                                  -->
-    </main>
+   </main>
     <footer>
         <!--                                  Angelica                                               -->
     </footer>
