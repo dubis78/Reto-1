@@ -87,8 +87,6 @@
         font-size: 24px;
         font-family: 'Opne Sans',sans-serif;
         
-        
-        
 
     }
 }
@@ -105,14 +103,22 @@
     }
     #links{
         background-color:var(--verde-claro) ;opacity: 0.8;
-       
+       justify-content: justify;
     }
     #comentario-imagen{
         top:570px !important;
         background-color:white;opacity: 1;        
     }
-  
-}*
+    #links-footer li{
+        text-align:center !important;
+        
+    }
+    #links-footer li{
+     
+        justify-content:justify !important;
+
+    }
+}
 /*ESTILOS PARA LOS ID*/
 .header{
     padding-bottom: 550px;
@@ -141,6 +147,22 @@
 }
 .footer{
     border-top: 2px solid #b8b8b9;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+#links-footer li{
+    list-style: none; 
+    line-height:30px;
+    text-align:right;
+    font-size: 14px;
+    font-family: 'Open Sans';
+    color:#54585A;
+    
+}
+#nombre-equipo-peque{
+    font-size: 14px;
+    font-family: 'Open Sans';
+    color:#54585A;
 }
 
 
