@@ -11,7 +11,7 @@
         background-image: url("/img_Formulario/2.png");
         background-position: center;
         background-repeat: no-repeat;
-        background-size: 100%;
+        background-size: cover;
         background-attachment: fixed;
         margin: 0;
     }
