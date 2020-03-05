@@ -46,7 +46,7 @@
     }
     #name{
         background-color: var(--verde-oscuro);opacity:1;
-        text-align: center;
+        text-align: center !important;
     }
     #links{
         background-color:var(--verde-oscuro) ;opacity: 1;
@@ -79,7 +79,7 @@
     }
     #links{
         background-color:var(--verde-claro) ;opacity: 0.8;
-        padding-top:45px;
+       
     }
     #contenedor-letra-imagen{
         padding-right: 30px;padding-left: 30px; margin-left: 38px;
@@ -90,7 +90,7 @@
         
     }
     #links-contacto {
-        padding-bottom:45px;
+        
         padding-right:50px;
     }
 }
