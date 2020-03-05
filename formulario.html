@@ -20,60 +20,47 @@
         <!--                                  Carolina                                                -->
         <div class="container "> <!--icon-container icon-container-carolina d-flex justify-content-center-->
             <div class="row justify-content-center "> 
-               <div class="col-md-7 bg-danger style="text-align:center">
-                
-                        <h1 >CONTACTO</h1>
-                        <p class="p-3 text-justify"> ¿Qué podemos hacer por ti?, porque queremos ayudarte, y estamos al
-                            otro lado de
-                            la pantalla para
-                            hacerlo. ¡Así que no esperes más y llena el siguente formulario para comunicarnos contigo!
-                        </p>
-                        <p class="p-3" style="text-align:center"><small>Todos los campos marcados con <span>*</span> son
-                            obligatorios.</small></p>
-                 
-                </div> 
-
-                <form action="" class="main-form" method="POST">
-                    <div>
-                    <fieldset class="row form-group bg-secondary col-12"> <!--row-->
-                        <label for="name">Nombre completo <span class="text-info">*</span></label> <!-- col-form-label-->
-                            <input id="name" type="text" name="nombre" class="form-control" placeholder="Nombre..." required="">
-                    </fieldset>
+               <div class="col-12  d-grid text-center">                
+                        <h1 style="margin-top: 30px;" >CONTACTO</h1>
+                        <h2 style="margin-top: 15px;" class="p-3 text-justify"> ¿Qué podemos hacer por ti?, porque queremos ayudarte, y estamos al otro lado de la pantalla para hacerlo. ¡Así que no esperes más y llena el siguente formulario para comunicarnos contigo!</h2>
+                        <p class="p-3 text-center" style="margin-bottom: 60px;"><small>Todos los campos marcados con <span>*</span> son obligatorios.</small></p>                 
                 </div>
+            </div>     
+            <div>
+                <form action="" class="main-form d-grid col-12" method="POST">
+                    <div class="row">
+                        <fieldset class="col-12 bg-secondary col-12"> <!--row-->
+                            <label for="name">Nombre completo <span class="text-info">*</span></label> <!-- col-form-label-->
+                            <input id="name" type="text" name="nombre" class="form-control" placeholder="Nombre..." required="">
+                        </fieldset>
+                    </div>   
 
-
-                    <div class="row justify-content-center">
-                        <fieldset class="form-group  bg-warning col-6">
+                    <div class="row">
+                        <fieldset class="bg-primary col-12">
                             <label for="email">Email <span class="text-info">*</span></label>
                             <input id="email" type="email" name="correo" class="form-control" placeholder="Correo..."
                                 required=""
                                 pattern="[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{1,5}">
                         </fieldset>
+                    </div>
 
-                        <div class="col-1"></div> <!--col-1-->
-                        <fieldset class="form-group  bg-success col-3">
+                    <div class="row">                            
+                        <fieldset class=" bg-success col-12">
                             <label for="number">Teléfono</label>
-                            <input id="number" type="tel" name="telefono" class="form-control"
-                                placeholder="Ej: 12345678" required="">
+                            <input id="number" type="tel" name="telefono" class="form-control" placeholder="Ej: 12345678" required="">
                         </fieldset>
-                    </div>
-
-
-                    <fieldset class="row form-group  bg-primary col-12"> <!--row-->
-                        <label for="mensajes">Mensaje <span class="text-info">*</span></label>
-                        <textarea id="mensajes" type="text" name="mensajes"  class="form-control"  
-                            placeholder="¿Qué necesitas?"></textarea> <!--cols="30" rows="10"-->
-                    </fieldset>
-
-                    <div>
-                        <button type="submit" class="btn btn-info">Enviar</button>
-                    </div>
+                    </div>                            
+                    
+                    <div class="row">  
+                        <fieldset class="bg-primary col-12"> 
+                            <label for="mensajes">Mensaje <span class="text-info">*</span></label>
+                            <textarea id="mensajes" type="text" name="mensajes"  class="form-control"  
+                                placeholder="¿Qué necesitas?"></textarea> <!--cols="30" rows="10"-->
+                        </fieldset>        
+                    </div>                      
+                </form>
             </div>
-            
-            </form>
-
-
-        </div>
+            <button type="submit" class="btn btn-info">Enviar</button>         
         </div>
     </main>
     <footer>
