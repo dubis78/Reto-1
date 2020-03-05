@@ -4,14 +4,13 @@
     --verde-oscuro:#009688;
     --verde-claro:#B2DFDB;
     --blanco:white;
-    
-
 }
 /*mayor a 768px de PANTALLA */
 @media (min-width:768px){
     #name{
         background-color:var(--verde-oscuro);
         opacity: 0.9;
+        padding-left:50px;
     }
     #links {
         background-color:var(--verde-claro) ;
@@ -24,9 +23,10 @@
         width: 65%; font-size: 24px;
         font-family: 'Open Sans', sans-serif;
         opacity:0.9;
-        top:505px;
-        
+         
     }
+   
+ 
 }
 /*TAMAÑO HEADER RESPONSIVE MENOR A 768PX PANTALLA */
 @media (max-width: 768px){
@@ -35,11 +35,12 @@
     }
     #name{
         background-color: var(--verde-oscuro);opacity:1;
+        text-align: center;
     }
     #links{
         background-color:var(--verde-oscuro) ;opacity: 1;
     }
-    
+  
     #comentario-imagen{
         background-color: var(--blanco);
         width: 441px; font-size: 24px;
@@ -48,10 +49,9 @@
         opacity:0.9;
         
     }
+ 
 
 }
-
-
 /* RESPONSIVE*/
 @media (max-width:320px){
     
@@ -68,9 +68,6 @@
         background-color:var(--verde-claro) ;opacity: 0.8;
      
     }
-    
-   
-    
 }
 /*ESTILOS PARA LOS ID*/
 .header{
@@ -79,6 +76,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    width: 100%;
 }
 #links-footer{
     padding-top:30px;
