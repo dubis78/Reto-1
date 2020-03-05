@@ -19,7 +19,13 @@
 
 /*           estilos CSS main Laura                                */ 
 
-
+main{
+    padding-left: 40%;
+    padding-right: 40%;
+}
+button{
+    width: "250";
+}
 
 
 
