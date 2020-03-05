@@ -1,37 +1,81 @@
-/*           estilos CSS header Angelica                            */ 
+/*           estilos CSS header Angelica                            */
+
+#container_Header {
+    margin-bottom: 45px;
+    padding: 5px;
+    background: #099d8d;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    font-weight: bold;
+}
 
 
+/*#grupo{
+        color: #ffffff;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 0.7cm;
+        font-weight: 700; }*/
+
+@media (min-width: 576px) {}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+    ...
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+    ...
+}
 
 
+/*           estilos CSS main Carolina                             */
 
 
+/**/
 
 
-
-/*           estilos CSS main Carolina                             */ 
-
+/**/
 
 
+/**/
 
 
+/**/
 
 
-
-/*           estilos CSS main Laura                                */ 
-
+/*           estilos CSS main Laura                                */
 
 
+/**/
 
 
+/**/
 
 
+/**/
 
 
-/*           estilos CSS footer Angelica                            */ 
+/**/
 
 
+/*           estilos CSS footer Angelica                            */
 
+footer {
+    font-family: 'Open Sans', sans-serif;
+}
 
+.menu_footer_2 {
+    /*background: ;*/
+    color: #54585a;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13;
+    font-weight: 700;
+    justify-self: left;
+}
 
-
-
+.copyRight {
+    color: #b8b8b9;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13;
+}
