@@ -33,11 +33,7 @@
         width: 80%;
         position: relative;
         top:560px;
-   
    }
-    
-   
- 
 }
 /*TAMAÑO HEADER RESPONSIVE MENOR A 768PX PANTALLA */
 @media (max-width: 768px){
@@ -51,7 +47,6 @@
     #links{
         background-color:var(--verde-oscuro) ;opacity: 1;
     }
-  
     #contenedor-letra-imagen{
         padding-right: 30px;padding-left: 30px; margin-left: 38px;
         width: 80%;
@@ -60,8 +55,6 @@
         background-color:white;opacity: 0.8;
         
     }
- 
-
 }
 /* RESPONSIVE*/
 @media (max-width:320px){
@@ -126,12 +119,6 @@
     padding-left:50px;
     font-size: 14px;
 }
-
-
-
-
-
-
 
 
 /*           estilos CSS main Paola                                */ 
