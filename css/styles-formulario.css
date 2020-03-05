@@ -1,3 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Rubik&display=swap');
+:root {
+    /* ----COLORES----- */
+    --verde-oscuro: #099d8d;
+    --verde-claro: #14d9c4;
+    --blanco: #ffffff;
+    --negro: #000000;
+    --gris-oscuro: #54585a;
+    --gris-claro: #b8b8b9;
+    --gris-de-fondo: #f1f1f1;
+}
+/* ----FIN VARIABLES ------*/
+
+
 /*           estilos CSS header Angelica                            */ 
 
 
@@ -10,38 +24,43 @@
 
 /*           estilos CSS main Carolina                             */ 
 
-/* INICIO VARIABLES */
-@import url('https://fonts.googleapis.com/css?family=Open+Sans|Rubik&display=swap');
-:root {
-    /* ----COLORES----- */
-    --verde-oscuro: #099d8d;
-    --verde-claro: #14d9c4;
-    --blanco: #2b2323;
-    --negro: #000000;
-    --gris-oscuro: #54585a;
-    --gris-claro: #b8b8b9;
-    --gris-de-fondo: #f1f1f1;
-
+main {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Rubik', sans-serif;
 }
 
-/* FIN VARIABLES */
 h1 {
     color:var(--verde-oscuro);
 }
 
 p .text-center {
     color:var(--gris-oscuro);
-    font-family: 'OpenSans-Regular';
     font-size: 12px;
 }
 
 label {
     color:var(--gris-oscuro);
-    font-family: 'OpenSans-Regular';
     font-size: 14px;
 }
 
+input {
+    font-size: 16px;
+}
 
+button {
+    color:var(--blanco);
+    background-color:var(--verde-oscuro);
+    font-size: 16px;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { }
 
 
 
