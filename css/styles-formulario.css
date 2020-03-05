@@ -1,128 +1,162 @@
-                                                                    /*           estilos CSS header Angelica                            */
-                                                                    
-                                                                    .header {
-                                                                        padding-bottom: 550px;
-                                                                        background-image: url("/img_Formulario/coffee-contact-email-hands-4831.jpg");
-                                                                        background-position: center;
-                                                                        background-repeat: no-repeat;
-                                                                        background-size: 100% 100%;
-                                                                        background-attachment: fixed;
-                                                                    }
-                                                                    /*Small devices*/
-                                                                    
-                                                                    @media (max-width: 320px) {
-                                                                        .header {
-                                                                            background-size: 50% 50%;
-                                                                        }
-                                                                        #grupo {
-                                                                            text-align: center;
-                                                                        }
-                                                                        #grupo {
-                                                                            background-color: #099d8d;
-                                                                            opacity: 0.8;
-                                                                            padding-top: 60px;
-                                                                        }
-                                                                        #menuHeader1 {
-                                                                            background-color: #B2DFDB;
-                                                                            opacity: 0.8;
-                                                                        }
-                                                                        #menuHeader2 {
-                                                                            background-color: #B2DFDB;
-                                                                            opacity: 0.8;
-                                                                        }
-                                                                        #menuHeader3 {
-                                                                            background-color: #B2DFDB;
-                                                                            opacity: 0.8;
-                                                                        }
-                                                                    }
-                                                                    /* Medium devices (tablets, 768px and up)*/
-                                                                    
-                                                                    @media (max-width: 768px) {
-                                                                        .header {
-                                                                            padding-bottom: 421px;
-                                                                        }
-                                                                        #grupo {
-                                                                            background-color: #099d8d;
-                                                                            opacity: 1;
-                                                                            text-align: center !important;
-                                                                        }
-                                                                        #menuHeader1 {
-                                                                            background-color: #099d8d;
-                                                                            opacity: 1;
-                                                                        }
-                                                                        #menuHeader2 {
-                                                                            background-color: #099d8d;
-                                                                            opacity: 1;
-                                                                        }
-                                                                        #menuHeader3 {
-                                                                            background-color: var(--verde-oscuro);
-                                                                            opacity: 1;
-                                                                        }
-                                                                    }
-                                                                    /*Extra large devices (large desktops, 1200px and up)*/
-                                                                    
-                                                                    @media (max-width: 1200px) {
-                                                                        .header {
-                                                                            background-color: #099d8d;
-                                                                        }
-                                                                        #grupo {
-                                                                            background-color: #099d8d;
-                                                                            opacity: 0.9;
-                                                                            padding-left: 50px;
-                                                                        }
-                                                                        #menuHeader1 {
-                                                                            background-color: #099d8d;
-                                                                            color: white;
-                                                                            opacity: 0.7;
-                                                                            text-align: center;
-                                                                        }
-                                                                        #menuHeader2 {
-                                                                            background-color: #099d8d;
-                                                                            color: white;
-                                                                            opacity: 0.7;
-                                                                            text-align: center;
-                                                                        }
-                                                                        #menuHeader3 {
-                                                                            background-color: #099d8d;
-                                                                            color: white;
-                                                                            opacity: 0.7;
-                                                                            text-align: center;
-                                                                        }
-                                                                    }
-                                                                    /*           estilos CSS main Carolina                             */
-                                                                    /**/
-                                                                    /**/
-                                                                    /**/
-                                                                    /**/
-                                                                    /*           estilos CSS main Laura                                */
-                                                                    /**/
-                                                                    /**/
-                                                                    /**/
-                                                                    /**/
-                                                                    /*           estilos CSS footer Angelica                            */
-                                                                    
-                                                                    #container_footer {
-                                                                        padding-top: 30px;
-                                                                        border-top: 2px solid gray;
-                                                                        padding-right: 50px;
-                                                                    }
-                                                                    
-                                                                    #menu_footer {
-                                                                        /*background: ;*/
-                                                                        padding-top: 25px;
-                                                                        padding-right: 50px;
-                                                                        text-align: right;
-                                                                    }
-                                                                    
-                                                                    .titulosFooter {
-                                                                        color: #54585A;
-                                                                        font-family: 'Open Sans', sans-serif;
-                                                                        font-size: 14px;
-                                                                    }
-                                                                    
-                                                                    .copyRight {
-                                                                        color: #b8b8b9;
-                                                                        font-family: 'Open Sans', sans-serif;
-                                                                        padding-left: 50px;
-                                                                        font-size: 14px;
-                                                                    }
+    /*           estilos CSS header Angelica                            */
+    
+     :root {
+        --verde-oscuro: #009688;
+        --verde-claro: #B2DFDB;
+        --blanco: white;
+    }
+    
+    .header {
+        padding-bottom: 400px;
+        background-image: url("/img_Formulario/2.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-attachment: fixed;
+        margin: 0;
+    }
+    
+    .contenedor {
+        background-color: var(--verde-oscuro);
+        opacity: 0.9;
+        margin: 0px;
+        width: 100%;
+    }
+    
+    .menuHeader {
+        display: flex;
+        color: white;
+        font-size: 8px;
+    }
+    
+    #grupo {
+        color: #ffffff;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 0.7px;
+        font-weight: 700;
+    }
+    
+    .menuHeader a:hover {
+        background-color: grey;
+        color: white;
+        border-radius: 10px;
+    }
+    
+    */
+    /*Small devices*/
+    /*@media (max-width: 320px) {
+header {
+background-size: 50% 50%;
+}
+#grupo {
+text-align: center;
+color: #ffffff;
+}
+#grupo {
+background-color: #099d8d;
+opacity: 0.8;
+padding-top: 60px;
+}
+#menuHeader1 {
+background-color: #B2DFDB;
+opacity: 0.8;
+}
+#menuHeader2 {
+background-color: #B2DFDB;
+opacity: 0.8;
+}
+#menuHeader3 {
+background-color: #B2DFDB;
+opacity: 0.8;
+}
+}*/
+    /* Medium devices (tablets, 768px and up)*/
+    /* @media (max-width: 768px) {
+.header {
+padding-bottom: 421px;
+}
+#grupo {
+background-color: #099d8d;
+opacity: 1;
+text-align: center !important;
+}
+#menuHeader1 {
+background-color: #099d8d;
+opacity: 1;
+}
+#menuHeader2 {
+background-color: #099d8d;
+opacity: 1;
+}
+#menuHeader3 {
+background-color: #099d8d;
+opacity: 1;
+}
+}
+
+    /*Extra large devices (large desktops, 1200px and up)*/
+    /*  @media (max-width: 1200px) {
+.header {
+background-color: #099d8d;
+}
+#grupo {
+background-color: #099d8d;
+opacity: 0.9;
+padding-left: 50px;
+}
+#menuHeader1 {
+background-color: #099d8d;
+color: white;
+opacity: 0.7;
+text-align: center;
+}
+#menuHeader2 {
+background-color: #099d8d;
+color: white;
+opacity: 0.7;
+text-align: center;
+}
+#menuHeader3 {
+background-color: #099d8d;
+color: white;
+opacity: 0.7;
+text-align: center;
+}
+}*/
+    /*           estilos CSS main Carolina                             */
+    /**/
+    /**/
+    /**/
+    /**/
+    /*           estilos CSS main Laura                                */
+    /**/
+    /**/
+    /**/
+    /**/
+    /*           estilos CSS footer Angelica                            */
+    
+    #container_footer {
+        padding-top: 5px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    
+    #menu_footer {
+        /*background: ;*/
+        padding-top: 25px;
+        padding-right: 50px;
+        text-align: left;
+    }
+    
+    .titulosFooter {
+        color: #54585A;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+    }
+    
+    .copyRight {
+        color: #b8b8b9;
+        font-family: 'Open Sans', sans-serif;
+        padding-left: 50px;
+        font-size: 14px;
+    }
