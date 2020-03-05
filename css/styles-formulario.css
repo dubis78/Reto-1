@@ -10,6 +10,38 @@
 
 /*           estilos CSS main Carolina                             */ 
 
+/* INICIO VARIABLES */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Rubik&display=swap');
+:root {
+    /* ----COLORES----- */
+    --verde-oscuro: #099d8d;
+    --verde-claro: #14d9c4;
+    --blanco: #2b2323;
+    --negro: #000000;
+    --gris-oscuro: #54585a;
+    --gris-claro: #b8b8b9;
+    --gris-de-fondo: #f1f1f1;
+
+}
+
+/* FIN VARIABLES */
+h1 {
+    color:var(--verde-oscuro);
+}
+
+p .text-center {
+    color:var(--gris-oscuro);
+    font-family: 'OpenSans-Regular';
+    font-size: 12px;
+}
+
+label {
+    color:var(--gris-oscuro);
+    font-family: 'OpenSans-Regular';
+    font-size: 14px;
+}
+
+
 
 
 
@@ -19,14 +51,14 @@
 
 /*           estilos CSS main Laura                                */ 
 
-main{
+/*main{
     padding-left: 40%;
     padding-right: 40%;
 }
 button{
-    width: "250";
+    width: "100%";
 }
-
+ */
 
 
 
