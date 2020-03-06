@@ -1,9 +1,17 @@
  /*           estilos CSS header Angelica                            */
+ @import url('https://fonts.googleapis.com/css?family=Open+Sans|Rubik&display=swap');
  :root {
-    --verde-oscuro: #009688;
-    --verde-claro: #B2DFDB;
-    --blanco: white;
-}
+     /* ----COLORES----- */
+     --verde-oscuro: #099d8d;
+     --verde-claro: #14d9c4;
+     --blanco: #ffffff;
+     --negro: #000000;
+     --gris-oscuro: #54585a;
+     --gris-claro: #b8b8b9;
+     --gris-de-fondo: #f1f1f1;
+ }
+
+
 .header {
     padding-bottom: 400px;
     background-image: url("/net.jpg");
@@ -74,6 +82,45 @@ h1 {
         margin-right: 0px;
     }
 }
+
+
+/*           estilos CSS main Carolina                             */ 
+
+main {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    margin-bottom: 45px;
+}
+
+h1 {
+    color:var(--verde-oscuro);
+}
+
+p .text-center {
+    color:var(--gris-oscuro);
+    font-size: 12px;
+}
+
+label {
+    color:var(--gris-oscuro);
+    font-size: 14px;
+}
+
+input {
+    font-size: 16px;
+    color:var(--gris-claro);
+}
+
+span  {
+    color:var(--verde-claro);
+}
+
+button {
+    color:var(--blanco);
+    background-color:var(--verde-oscuro);
+    font-size: 16px;
+}
+
 /* Medium devices (tablets, 768px and up)*/
 @media (max-width: 768px) {
     .header {
@@ -102,16 +149,10 @@ h1 {
             margin-right: 0px;
         }
     }
-    /*Extra large devices (large desktops, 1200px and up)*/
-    /*           estilos CSS main Carolina                             */
-    /**/
-    /**/
-    /**/
-    /**/
-    /*           estilos CSS main Laura                                */
-    /**/
-    /**/
-    /**/
+  
+
+
+
     /**/
     /*           estilos CSS footer Angelica                            */
     #container_footer {
