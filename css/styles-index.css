@@ -74,7 +74,7 @@ p {
         margin-bottom: 30px;
     }
     #links{
-        /* background-color:var(--verde-claro)!important ;*/
+        background-color:var(--verde-claro)!important ;
         opacity: 0.9;
         color:white;
         text-align: center;
