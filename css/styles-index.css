@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans|Rubik&display=swap');
+/*           estilos CSS header Julieth         */ 
 :root{
     --verde-oscuro:#009688;
     --verde-claro:#B2DFDB;
@@ -8,6 +8,201 @@
     --gris-claro: #b8b8b9;
     --gris-de-fondo: #f1f1f1;
 }
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    --normal: 12px;
+}
+
+
+.container-equipo {
+    margin: 1rem;
+    padding: 1rem;
+}
+h1, h3, h4 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+h1{
+    font-size: 24px;
+    align-items: center;
+    text-align: center;   
+    color:var(--verde-oscuro);
+}
+
+h2 {
+    font-size: 22px;
+    align-items: center;
+    text-align: center;   
+    color:var(--verde-oscuro);
+}
+
+h3 {
+    font-size: 20px;
+    padding-top: 10px;
+}
+p {
+    font-size: 16px;
+    align-items: center;
+    display:inline-block; 
+    text-align: center;    
+}
+
+.container-descripcion { 
+    background-color: #b8b8b9;
+}
+
+.container-descripcion h3{
+    color:var(--verde-oscuro);
+}
+
+.icon-container i{
+    color:var(--verde-oscuro);
+}
+
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .header{    
+        height: 421px;
+        background-image: url("/ninas2.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;  
+        background-attachment: fixed;
+    }
+    #links{
+        /* background-color:var(--verde-claro)!important ;*/
+        opacity: 0.9;
+        color:white;
+        text-align: center;
+    }
+    
+    #name{
+        
+        text-align: center;
+    }
+    .text{
+        margin-left: 0 !important;
+    }    
+    .nav-link{
+        padding:0.5rem 0.5rem !important;
+    }
+    .nav-3{
+        margin-right: 0px !important;
+    }
+    .nav{
+        display:flex !important;
+        justify-content: center !important;
+    }   
+
+    #comentario-imagen h1{
+        background-color: var(--blanco);
+        width: 80vw;
+        font-size: 10px;
+        padding: 15px 15px 15px 15px;
+        /*margin: 0 15px 0 15px !important;*/
+        font-family: 'Opne Sans',sans-serif;
+        position: relative;
+        top:300px;
+        left:6vw;
+
+        background-color:white;opacity: 0.9;          
+    }    
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .header{    
+        height: 421px;
+        background-image: url("/ninas2.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;  
+        background-attachment: fixed;
+    }    
+    
+    #comentario-imagen h1{
+        background-color: var(--blanco);
+        width: 441px;
+        font-size: 18px;
+        padding: 15px 30px 15px 30px;
+        font-family: 'Opne Sans',sans-serif;
+        position: relative;
+        top:432px;
+        left:10vw;
+        background-color:white;opacity: 0.9; 
+    }
+    }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    
+.header{    
+    height: 550px;
+    background-image: url("/ninas2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;  
+    background-attachment: fixed;
+}    
+
+#comentario-imagen h1{
+    background-color: var(--blanco);
+    width: 441px;
+    font-size: 24px;
+    padding: 15px 30px 15px 30px;
+    font-family: 'Opne Sans',sans-serif;
+    position: relative;
+    top:432px;
+    left:10vw;
+    background-color:white;opacity: 0.9; 
+}
+#links{
+    background-color:var(--verde-oscuro);
+    opacity: 0.9;
+    color:white;
+    text-align: center;
+    }  
+}  
+
+#name{
+    background-color: var(--verde-oscuro);
+    opacity: 0.9;
+}
+.text{
+    margin-left: 45px;
+}
+#links{
+    background-color: var(--verde-oscuro);
+    opacity: 0.9;
+}
+.nav-link{
+    padding: 0.5rem 0.4rem;
+}
+.nav-3{
+    margin-right: 45px;
+}
+.footer{
+    border-top: 2px solid #b8b8b9;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+#links-footer li{
+    list-style: none; 
+    line-height:30px;
+    text-align:right;
+    font-size: 15px;
+    font-family: 'Open Sans';
+    color:#54585A;
+    
+}
+#nombre-equipo-peque{
+    font-size: 16px;
+    font-family: 'Open Sans';
+    color:#54585A;
+}
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Rubik&display=swap');
+
 
 /*           estilos CSS header Julieth                            */ 
 
@@ -21,62 +216,18 @@
 
 /*           estilos CSS main Paola                                */ 
 
-body {
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Rubik', sans-serif;
-    --normal: 12px;
-}
-
-.container-equipo {
-    margin: 1rem;
-    padding: 1rem;
-}
-
-h1 {
-    align-items: center;
-    text-align: center;   
-    color:var(--verde-oscuro);
-}
-
-h3 .text-center {
-    color:var(--verde-oscuro);
-}
-
-p {
-    align-items: center;
-    display:inline-block; 
-    text-align: center;
-    
-}
-
-
-/*Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) and (max-width: 767.98px) { }
-
-/* Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) and (max-width: 991.98px) { }
-
-/* Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) and (max-width: 1199.98px) { 
-  
-}
-
-
-
-
 
 
 
 /*           estilos CSS main Dubenis                                */ 
-.icon-container i{
-    color:var(--verde-oscuro);
-}
+
 
 
 
 /*           estilos CSS footer Julieth                             */ 
 
 
+                        
 
 
 
