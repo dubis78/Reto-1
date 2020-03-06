@@ -31,14 +31,14 @@
 
 h1 {
     font-size: 16px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Rubik', sans-serif;
 }
 
 .menuHeader a {
     display: flex;
     color: white;
     font-size: 15px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Rubik', sans-serif;
 }
 
 #grupo {
@@ -49,7 +49,7 @@ h1 {
 }
 
 .menuHeader a:hover {
-    background-color: grey;
+    background-color: var(--verde-claro);
     color: white;
     border-radius: 10px;
 }
@@ -59,7 +59,7 @@ h1 {
 
 @media (max-width: 320px) {
     .header {
-        background-size: 50% 100%;
+        background-size: cover;
     }
     #grupo {
         text-align: center;
@@ -73,6 +73,16 @@ h1 {
     .menuHeader {
         background-color: var(--verde-claro);
         opacity: 0.8;
+    }
+    .copyRight {
+        justify-content: center;
+        padding-left: 50%;
+        text-align: center !important;
+    }
+    #menufooter {
+        justify-content: center !important;
+        text-align: center !important;
+        margin-right: 0px;
     }
 }
 
@@ -96,24 +106,6 @@ h1 {
 
 
 /*Extra large devices (large desktops, 1200px and up)*/
-
-
-/*@media (max-width: 1200px) {
-    .header {}
-    # {
-        background-color: var(--verde-oscuro);
-        opacity: 0.9;
-        padding-left: 50px;
-    }
-    .menuHeader {
-        background-color: var(--verde-oscuro);
-        color: var(--blanco);
-        opacity: 0.9;
-        text-align: center;
-    }
-
-
-}*/
 
 
 /*           estilos CSS main Carolina                             */
@@ -152,24 +144,28 @@ h1 {
     padding-top: 5px;
     padding-right: 10px;
     padding-left: 10px;
+    display: flex;
 }
 
-#menu_footer {
+#menuFooter {
     /*background: ;*/
     padding-top: 25px;
     padding-right: 50px;
-    text-align: left;
+    text-align: right;
+    text-align: right;
 }
 
 .titulosFooter {
     color: #54585A;
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
+    font-weight: 200;
 }
 
 .copyRight {
-    color: #b8b8b9;
     font-family: 'Open Sans', sans-serif;
     padding-left: 50px;
+    padding-top: 30px;
     font-size: 14px;
+    color: #b8b8b9 !important;
 }
