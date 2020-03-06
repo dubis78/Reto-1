@@ -140,7 +140,7 @@ p {
     
 .header{    
     height: 550px;
-    background-image: url("/ninas2.jpg");
+    background-image: url("ninas2.jpg");
     background-size: cover;
     background-repeat: no-repeat;  
     background-attachment: fixed;
