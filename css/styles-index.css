@@ -31,23 +31,34 @@ body {
     margin: 1rem;
     padding: 1rem;
 }
+h1, h3, h4 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
 
-h1 {
+h1, h3 {
     align-items: center;
     text-align: center;   
     color:var(--verde-oscuro);
 }
 
-h3 .text-center {
-    color:var(--verde-oscuro);
+h4 {
+    padding-top: 10px;
 }
-
 p {
     align-items: center;
     display:inline-block; 
-    text-align: center;
-    
+    text-align: center;    
 }
+
+.container-descripcion { 
+    background-color: #b8b8b9;
+}
+
+.container-descripcion h3{
+    color:var(--verde-oscuro);
+}
+
 
 
 /*Small devices (landscape phones, 576px and up)*/
