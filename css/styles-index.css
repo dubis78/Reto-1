@@ -5,52 +5,77 @@
     --verde-claro:#B2DFDB;
     --blanco:white;
 }
-@media (min-width:768px){
 
-}
-    #contenedor-letra-imagen{
-        padding-right: 30px;padding-left: 30px; margin-left: 38px;
-        width: 60%  !important;
+
+
+
+/*mayor a 950px de PANTALLA */
+/*@media (min-width:950px){*/
+    .header{    
+        height: 550px;
+        background-image: url("/ninas2.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;  
+        background-attachment: fixed;
+    }    
+    
+    #comentario-imagen h1{
+        background-color: var(--blanco);
+        width: 441px;
+        font-size: 24px;
+        padding: 15px 30px 15px 30px;
+        font-family: 'Opne Sans',sans-serif;
         position: relative;
-        top:200px;
-        background-color: var(--blanco);opacity: 0.8;;
-}
-/*mayor a 768px de PANTALLA */
-/*
-@media (min-width:768px){
-  
-    .links {
-        align-content: end !important;
-       
+        top:432px;
+        left:10vw;
+        background-color:white;opacity: 0.9; 
     }
-    #name{
+    #links{
         background-color:var(--verde-oscuro);
         opacity: 0.9;
-        padding-left:50px;
-    }
-    #links {
-        background-color:var(--verde-claro) ;
-        color: white;
-        opacity: 0.7;
+        color:white;
         text-align: center;
     }
-    #comentario-imagen{
+/*}*/
+
+/*menor a 950px de PANTALLA */
+@media screen and (min-width:950){
+    .header{    
+        height: 421px;
+        background-image: url("/ninas2.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;  
+        background-attachment: fixed;
+    }    
+    
+    #comentario-imagen h1{
         background-color: var(--blanco);
-        font-size: 24px;
-        font-family: 'Open Sans', sans-serif;
-        opacity:0.8;
-         
-    }
-    #contenedor-letra-imagen{
-        padding-right: 30px;padding-left: 30px; margin-left: 38px;
-        width: 60%  !important;
+        width: 441px;
+        font-size: 18px;
+        padding: 15px 30px 15px 30px;
+        font-family: 'Opne Sans',sans-serif;
         position: relative;
-        top:410px !important;
-   }
-}*/
+        top:432px;
+        left:10vw;
+        background-color:white;opacity: 0.9; 
+    }
+}
+
 /*TAMAÑO HEADER RESPONSIVE MENOR A 767PX PANTALLA */
-@media (max-width: 767px){
-   
+@media screen and (min-width: 280px){
+    .header{    
+        height: 421px;
+        background-image: url("/ninas2.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;  
+        background-attachment: fixed;
+    }
+    #links{
+       /* background-color:var(--verde-claro)!important ;*/
+        opacity: 0.9;
+        color:white;
+        text-align: center;
+    }
   
     #name{
         
@@ -58,15 +83,9 @@
     }
     .text{
         margin-left: 0 !important;
-    }
-    #links{
-        background-color:var(--verde-claro) !important;opacity: 0.9;
-        color:white;
-        text-align: center;
-
-    }
+    }    
     .nav-link{
-        padding:0.5rem 0.8rem !important;
+        padding:0.5rem 0.5rem !important;
     }
     .nav-3{
         margin-right: 0px !important;
@@ -74,40 +93,41 @@
     .nav{
         display:flex !important;
         justify-content: center !important;
-    }
-    #contenedor-letra-imagen{
-        position:relative;
-        top:150px;
-        background-color:white;
-        opacity: 0.8;
-        
-    }
-    #comentario-imagen{
-        background-color: var(--blanco);
-        font-size: 24px;
-        font-family: 'Opne Sans',sans-serif;
-        
+    }   
 
-    }
+    #comentario-imagen h1{
+        background-color: var(--blanco);
+        width: 80vw;
+        font-size: 10px;
+        padding: 15px 15px 15px 15px;
+        /*margin: 0 15px 0 15px !important;*/
+        font-family: 'Opne Sans',sans-serif;
+        position: relative;
+        top:300px;
+        left:6vw;
+
+        background-color:white;opacity: 0.9;          
+    }    
 }
+
 /* PANTALLA MENOS A 320PX */
-@media (max-width:320px){
+/*@media (max-width:320px){
       
     #name{
         text-align: center;
     }
    
     #name{
-        background-color: var(--verde-oscuro);opacity:0.8;
+        background-color: var(--verde-oscuro);opacity:0.9;
         padding-top:60px;
     }
     #links{
-        background-color:var(--verde-claro) ;opacity: 0.8;
+        background-color:var(--verde-claro) ;opacity: 0.9;
        justify-content: justify;
     }
     #comentario-imagen{
         top:570px !important;
-        background-color:white;opacity: 1;        
+        background-color:white;opacity: 0.9;        
     }
     #links-footer li{
         text-align:center !important;
@@ -118,16 +138,15 @@
         justify-content:justify !important;
 
     }
-}
+}*/
 /*ESTILOS PARA LOS ID*/
-.header{
-    padding-bottom: 550px;
-    background-image: url("/ninas.jpg");
-    background-size: 100%;
-    background-repeat: no-repeat;
-  
-    /*background-attachment: fixed;*/
-}
+/*.header{    
+    height: 550px;
+    background-image: url("/ninas2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;  
+    background-attachment: fixed;
+}*/
 
 #name{
     background-color: var(--verde-oscuro);
@@ -138,9 +157,10 @@
 }
 #links{
     background-color: var(--verde-oscuro);
+    opacity: 0.9;
 }
 .nav-link{
-    padding: 0.5rem 0.7rem !important;
+    padding: 0.5rem 0.4rem;
 }
 .nav-3{
     margin-right: 45px;
@@ -154,13 +174,13 @@
     list-style: none; 
     line-height:30px;
     text-align:right;
-    font-size: 14px;
+    font-size: 15px;
     font-family: 'Open Sans';
     color:#54585A;
     
 }
 #nombre-equipo-peque{
-    font-size: 14px;
+    font-size: 16px;
     font-family: 'Open Sans';
     color:#54585A;
 }
