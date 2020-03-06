@@ -63,14 +63,15 @@ p {
 }
 
 
-/*Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) and (max-width: 767.98px) { 
+/*Small devices (landscape phones, 767.98px and up)*/
+@media (max-width: 767.98px) { 
     .header{    
         height: 421px;
         background-image: url("/ninas2.jpg");
         background-size: cover;
         background-repeat: no-repeat;  
         background-attachment: fixed;
+        margin-bottom: 30px;
     }
     #links{
         /* background-color:var(--verde-claro)!important ;*/
@@ -100,14 +101,13 @@ p {
     #comentario-imagen h1{
         background-color: var(--blanco);
         width: 80vw;
-        font-size: 10px;
+        font-size: 18px;
         padding: 15px 15px 15px 15px;
         /*margin: 0 15px 0 15px !important;*/
         font-family: 'Opne Sans',sans-serif;
         position: relative;
         top:300px;
-        left:6vw;
-
+        left:10vw;
         background-color:white;opacity: 0.9;          
     }    
 }
@@ -120,23 +120,24 @@ p {
         background-size: cover;
         background-repeat: no-repeat;  
         background-attachment: fixed;
+        margin-bottom: 45px;
     }    
     
     #comentario-imagen h1{
         background-color: var(--blanco);
         width: 441px;
-        font-size: 18px;
+        font-size: 24px;
         padding: 15px 30px 15px 30px;
         font-family: 'Opne Sans',sans-serif;
         position: relative;
-        top:432px;
+        top:300px;
         left:10vw;
         background-color:white;opacity: 0.9; 
     }
     }
 
 /* Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) and (max-width: 1199.98px) { 
+@media (min-width: 992px){ 
     
 .header{    
     height: 550px;
@@ -144,6 +145,7 @@ p {
     background-size: cover;
     background-repeat: no-repeat;  
     background-attachment: fixed;
+    margin-bottom: 45px;
 }    
 
 #comentario-imagen h1{
