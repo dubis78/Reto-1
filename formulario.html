@@ -1,76 +1,87 @@
 <!DOCTYPE html>
 <html lang="es">
+​
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles-formulario.css"> <!--"css/styles-formulario.css.css"-->
-    <script src="js/jquery-3.4.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/popper.min.js"></script>
+    <link rel="shortcut icon" type="image/x-icon" href="/img_Formulario/logo_F.png" />
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/styles-formulario.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Rubik&display=swap" rel="stylesheet">
+    <script src="js/jquery-3.4.1.min.js "></script>
+    <script src="js/bootstrap.min.js "></script>
+    <script src="js/popper.min.js "></script>
+​
 </head>
+​
 <body>
-    <header>
-        <!--                                             Angelica                                                -->
-    </header>
-    <main>
-        <!--                                             Carolina                                                -->
-        <div class="container" style="padding-left: 18%; padding-right: 18%;"> <!--Con el padding, centramos todo el contenedor--> 
-            <div class="row justify-content-center"> <!--Ubica las filas al centro-->
-                <div class="col-12 col-xs-12 col-sm-12 col-md-12  d-grid text-center">                
-                    <h1 style="margin-top: 45px">CONTACTO</h1>
-                    <p style="margin-top: 15px" class="text-justify-center"> ¿Qué podemos hacer por ti?, porque queremos ayudarte, y estamos al otro lado de la pantalla para hacerlo. ¡Así que no esperes más y llena el siguente formulario para comunicarnos contigo!</p>
-                    <p class=" text-center" style="margin-bottom: 60px;"><small>Todos los campos marcados con <span>*</span> son obligatorios.</small></p> <!--text-info es para resaltar lo que hay dentro, en este caso no lo colocamos porque necesitamos un color personalizado-->                
+    <header class="header">
+        <!--                                  Angelica                                                -->
+        <div class="contenedor ">
+            <div class="row  justify-content-between d-grid " style="margin-left: 0; margin-right: 0!important;" id="grupo">
+​
+                <div class="col-1" style="margin-left: 0; margin-right: 0!important;">
+                    <img src="/img_Formulario/Logo_final_50.png" alt=" ">
                 </div>
-            </div>     
-            <div>
-                <form action="" class="main-form col-12 col-xs-12 col-sm-12 col-md-12  d-grid" method="POST">
-                    <div class="row">
-                        <fieldset class="form-group col-xs-12 col-sm-12 col-md-12" > <!--row-->
-                            <label for="name">Nombre completo <span style="margin-top: 60px; margin-bottom: 5px">*</span></label> <!-- col-form-label-->
-                            <input id="name" type="text" name="nombre" class="form-control rounded-0" style="height: 45px;" placeholder="Nombre..." required="">
-                        </fieldset>
-                    </div>   
-
-                    <!--MODIFICACIÓN DE EMAIL Y TELÉFONO (DOS COLUMNAS EN UNA FILA)-->
-
-                    <div class="row">
-                        <fieldset class=" form-group col align-self-start col-xs-12 col-sm-12 col-md-8 "> <!--Es para que la columna se alinee al inicio del contenedor-->
-                            <label for="email">Email <span style="margin-top: 15px; margin-bottom: 5px">*</span></label>
-                            <input id="email" type="email" name="correo" class="form-control rounded-0"  style="margin-right: 44px; height: 45px;" placeholder="nombre.apellidos@mail.com"
-                                required="" pattern="[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{1,5}">
-                        </fieldset>
-        <!--                                               Laura                                                -->
-                                                
-                        <fieldset class="form-group col align-self-end col-12 col-xs-12 col-sm-12 col-md-4"> <!--Es para que la columna se alinee al final del contenedor-->
-                            <label for="number">Teléfono</label> 
-                            <input id="number" type="tel" name="telefono" class="form-control rounded-0" style="height: 45px;" placeholder="Ej: 123456789" required="">
-                        </fieldset>
-                    </div>          
-                    
-                    
-                        <!--MODIFICACIÓN DE EMAIL Y TELÉFONO (DOS COLUMNAS EN UNA FILA)-->
-                    
-                    <div class="row">  
-                        <fieldset class="form-group col-12 col-xs-12 col-sm-12 col-md-12" style="margin-bottom: 0;"> 
-                            <label for="mensajes">Mensaje <span>*</span></label>
-                            <textarea id="mensajes" type="text" name="mensajes"  class="form-control rounded-0" style="padding-bottom: 0%; height: 105px;" placeholder="¿Qué necesitas?"></textarea> <!--cols="30" rows="10"-->
-                        </fieldset>        
-                    </div>                      
-                
-            
-                    <div class="row rounded float-right"> <!--Es para que el button se alinee a la derecha-->
-                        <div class="form-group col-xs-12 col-sm-12 col-md-12"> <!--Para que ocupe todo el espacio-->
-                            <button type="submit" class="btn" style="margin-top: 30px; margin-bottom: 120px; height: 45px; width: 250px;">Enviar</button>         
-                        </div>
-                    </div>  
-                </form>   
+​
+​
+                <div class="col-10 col-md-5   menuHeader " id="grupo">
+​
+                    <h1 class="ml-5  mt-3"> MAD HOUSE</h1>
+                </div>
+​
+                <div class="col-12 col-md-6 menuHeader ">
+​
+                    <a class="mr-5 mt-3"> EQUIPO </a>
+​
+                    <a class="mr-5 mt-3"> QUIENES SOMOS </a>
+​
+                    <a class="mr-5 mt-3"> CONTACTO </a>
+​
+                </div>
             </div>
         </div>
+​
+​
+​
+​
+​
+​
+    </header>
+    <main>
+        <!--                                  Carolina                                                -->
+​
+​
+        <!-- ///////////////////////////////////////////////////////////////////////////////////// -->
+​
+​
+​
+        <!--                                   Laura                                                  -->
+​
+​
     </main>
+​
     <footer>
-        <!--                                  Angelica                                               -->
+​
+​
+        <!-- Angelica -->
+​
+        <hr>
+        <div class="row " id="container_footer">
+            <div class=" col-md-6 col-12 ">
+                <a class=" copyRight text-right "> Mad House © 2020 </a>
+            </div>
+            <div class=" col-md-6 col-12 " id="menuFooter ">
+                <div class="titulosFooter text-right mr-5 ">EQUIPO </div>
+                <div class="titulosFooter text-right mr-5 ">QUIENES SOMOS </div>
+                <div class="titulosFooter text-right mr-5 ">CONTACTO </div>
+            </div>
+        </div>
+​
+​
     </footer>
 </body>
+​
+​
 </html>
