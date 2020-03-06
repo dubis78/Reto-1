@@ -45,7 +45,11 @@ label {
 
 input {
     font-size: 16px;
-    
+    color:var(--gris-claro);
+}
+
+span  {
+    color:var(--verde-claro);
 }
 
 button {
@@ -53,6 +57,8 @@ button {
     background-color:var(--verde-oscuro);
     font-size: 16px;
 }
+
+
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) { }
