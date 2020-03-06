@@ -67,7 +67,7 @@ p {
 @media (max-width: 767.98px) { 
     .header{    
         height: 421px;
-        background-image: url("/ninas2.jpg");
+        background-image: url("https://lh3.googleusercontent.com/FjBozaY1ND2irlIY1qydEU9dCJJPHOGmwJsx98E_9wrdzfsa2fRZAOealddtO05BaiRL8I-YvNs7qYyFbFA85j22yk7UiGNaWc8n93mzxmVdyxLeXL4XqKSzUsZj3Fn3X0E5PmPuBOBdDwuV1mDPbG1zxWSfq5ZRk9oxBMHRwloA17YusmlS_GJLT4SQyzao55D8nqneGcjzCl-MuqRLD6pzySGLXAtMWq5QxTc-QqgDs-ecNqx1x7VqzLZn72Kg-CREjTJs59WbfBbBk35TtBG_n8HX9vC7SIlh3I27dcCFzobWwKIWUUSKEf87OMXbfp3RgxPpdehBk1Su-ND1QtUl3iplnANj1bxNoPxav3HVkdooG5bbEfjaCyV6MHTpfrT9Tp0EbBKU3Fy-Aevej4kcmD6F4dujao5dCZUDYp8ICT9yPZCkq0ph5LVh8aN7XfqgW88n73R4DsSDJS-FLWo7DfKzbuchFrMTN4bww9glg49rxk9Uwe1oAGdbgwpcf-dnyDVVt8dir9_5HMs6sD_CAtPZzyLNUz_O_e4nCbXJEqO_X1Zs1iBxwxTtHG08XyIMo5JNzgFroX_6aGkcXdisAGlD3qoTsNDkUEW5KGsz1GiMhbvmXp3EPQJ0aLLS2XBZHVbak0b73V_eMUcSO7sS4TYJpKn-8-i5L3aOY3utWfjPlbJK8FPt5LqVzDHPIQZOp_zxhLfUVLnzjvqViBqL6zypCZbrAlkJq0YS5MbBSn7S4w=w1410-h550-no");
         background-size: cover;
         background-repeat: no-repeat;  
         background-attachment: fixed;
@@ -116,7 +116,7 @@ p {
 @media (min-width: 768px) and (max-width: 991.98px) {
     .header{    
         height: 421px;
-        background-image: url("/ninas2.jpg");
+        background-image: url("https://lh3.googleusercontent.com/FjBozaY1ND2irlIY1qydEU9dCJJPHOGmwJsx98E_9wrdzfsa2fRZAOealddtO05BaiRL8I-YvNs7qYyFbFA85j22yk7UiGNaWc8n93mzxmVdyxLeXL4XqKSzUsZj3Fn3X0E5PmPuBOBdDwuV1mDPbG1zxWSfq5ZRk9oxBMHRwloA17YusmlS_GJLT4SQyzao55D8nqneGcjzCl-MuqRLD6pzySGLXAtMWq5QxTc-QqgDs-ecNqx1x7VqzLZn72Kg-CREjTJs59WbfBbBk35TtBG_n8HX9vC7SIlh3I27dcCFzobWwKIWUUSKEf87OMXbfp3RgxPpdehBk1Su-ND1QtUl3iplnANj1bxNoPxav3HVkdooG5bbEfjaCyV6MHTpfrT9Tp0EbBKU3Fy-Aevej4kcmD6F4dujao5dCZUDYp8ICT9yPZCkq0ph5LVh8aN7XfqgW88n73R4DsSDJS-FLWo7DfKzbuchFrMTN4bww9glg49rxk9Uwe1oAGdbgwpcf-dnyDVVt8dir9_5HMs6sD_CAtPZzyLNUz_O_e4nCbXJEqO_X1Zs1iBxwxTtHG08XyIMo5JNzgFroX_6aGkcXdisAGlD3qoTsNDkUEW5KGsz1GiMhbvmXp3EPQJ0aLLS2XBZHVbak0b73V_eMUcSO7sS4TYJpKn-8-i5L3aOY3utWfjPlbJK8FPt5LqVzDHPIQZOp_zxhLfUVLnzjvqViBqL6zypCZbrAlkJq0YS5MbBSn7S4w=w1410-h550-no");
         background-size: cover;
         background-repeat: no-repeat;  
         background-attachment: fixed;
@@ -141,7 +141,7 @@ p {
     
 .header{    
     height: 550px;
-    background-image: url("/ninas2.jpg");
+    background-image: url("https://lh3.googleusercontent.com/FjBozaY1ND2irlIY1qydEU9dCJJPHOGmwJsx98E_9wrdzfsa2fRZAOealddtO05BaiRL8I-YvNs7qYyFbFA85j22yk7UiGNaWc8n93mzxmVdyxLeXL4XqKSzUsZj3Fn3X0E5PmPuBOBdDwuV1mDPbG1zxWSfq5ZRk9oxBMHRwloA17YusmlS_GJLT4SQyzao55D8nqneGcjzCl-MuqRLD6pzySGLXAtMWq5QxTc-QqgDs-ecNqx1x7VqzLZn72Kg-CREjTJs59WbfBbBk35TtBG_n8HX9vC7SIlh3I27dcCFzobWwKIWUUSKEf87OMXbfp3RgxPpdehBk1Su-ND1QtUl3iplnANj1bxNoPxav3HVkdooG5bbEfjaCyV6MHTpfrT9Tp0EbBKU3Fy-Aevej4kcmD6F4dujao5dCZUDYp8ICT9yPZCkq0ph5LVh8aN7XfqgW88n73R4DsSDJS-FLWo7DfKzbuchFrMTN4bww9glg49rxk9Uwe1oAGdbgwpcf-dnyDVVt8dir9_5HMs6sD_CAtPZzyLNUz_O_e4nCbXJEqO_X1Zs1iBxwxTtHG08XyIMo5JNzgFroX_6aGkcXdisAGlD3qoTsNDkUEW5KGsz1GiMhbvmXp3EPQJ0aLLS2XBZHVbak0b73V_eMUcSO7sS4TYJpKn-8-i5L3aOY3utWfjPlbJK8FPt5LqVzDHPIQZOp_zxhLfUVLnzjvqViBqL6zypCZbrAlkJq0YS5MbBSn7S4w=w1410-h550-no");
     background-size: cover;
     background-repeat: no-repeat;  
     background-attachment: fixed;
