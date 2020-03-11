@@ -62,13 +62,12 @@ p {
     color:var(--verde-oscuro);
 }
 
-
 /*Small devices (landscape phones, 767.98px and up)*/
 @media (max-width: 767.98px) { 
     .header{    
         height: 421px;
-        background-image: url("https://lh3.googleusercontent.com/FjBozaY1ND2irlIY1qydEU9dCJJPHOGmwJsx98E_9wrdzfsa2fRZAOealddtO05BaiRL8I-YvNs7qYyFbFA85j22yk7UiGNaWc8n93mzxmVdyxLeXL4XqKSzUsZj3Fn3X0E5PmPuBOBdDwuV1mDPbG1zxWSfq5ZRk9oxBMHRwloA17YusmlS_GJLT4SQyzao55D8nqneGcjzCl-MuqRLD6pzySGLXAtMWq5QxTc-QqgDs-ecNqx1x7VqzLZn72Kg-CREjTJs59WbfBbBk35TtBG_n8HX9vC7SIlh3I27dcCFzobWwKIWUUSKEf87OMXbfp3RgxPpdehBk1Su-ND1QtUl3iplnANj1bxNoPxav3HVkdooG5bbEfjaCyV6MHTpfrT9Tp0EbBKU3Fy-Aevej4kcmD6F4dujao5dCZUDYp8ICT9yPZCkq0ph5LVh8aN7XfqgW88n73R4DsSDJS-FLWo7DfKzbuchFrMTN4bww9glg49rxk9Uwe1oAGdbgwpcf-dnyDVVt8dir9_5HMs6sD_CAtPZzyLNUz_O_e4nCbXJEqO_X1Zs1iBxwxTtHG08XyIMo5JNzgFroX_6aGkcXdisAGlD3qoTsNDkUEW5KGsz1GiMhbvmXp3EPQJ0aLLS2XBZHVbak0b73V_eMUcSO7sS4TYJpKn-8-i5L3aOY3utWfjPlbJK8FPt5LqVzDHPIQZOp_zxhLfUVLnzjvqViBqL6zypCZbrAlkJq0YS5MbBSn7S4w=w1410-h550-no");
-        background-size: cover;
+        background-image: url("https://lh3.googleusercontent.com/q57PQrZtYeuAan0vXaGOqiPUidMDVNvNgC6KbwhuU2W2Aw-0KL6g3LozbTXie3luAwc3VX8T8nAIwKOSwk4NvPdiJHJ4OwW4DJH6KgPeztXPgpJEK6rDYl2b_HHkZKQbmSQgP9ug8IwA3AJs4V1S9Z-MXr54FZmN9vTuaO_1lr7wP66GndxT842KLnX7s9dYtUG1md82V6emkXIXiVmMoWMMZBOIlxcvlO3Ij_CQloSoMSkN2N5gOQP-u7RHHTHiNX98yQ_4D78C8HDCTSMhHLDnvb6Se9or4SvC4COPiPTbZaFLrzT-h866R9KiFUBDKO9e4TfRh4ZiLgX7IUOsP_WENo488ZhbQ7w8L8YZSVuTnIm6UjYGH1O88mIQcGP-8X5MSOg4BlqLiRYedslO5_ujJ-CflECXIV8OgY-q97Am-O9JOlgA-88RByxkOl4UCT1udRUhS0vYw7KNR7QmpUmygDgokm4hHTsoui_XYWtV--MrbKx0yynfg_ylwxkPt-HTfh_JagUsvjo-DGknjRQfEeFncNIU8rcEW0Ucan7l9eBRqahwZpaOp0ObFZm5nfvoITfBOuiP0QIBGXW_1LADir715AxC8qxly5GQg0D8sfn-dpovH2bLMoDRi3yNBqz0OkBGTCveaBD8ueqNJT_zYbBys1wd8a5GGVYQtaRQsE83BFeJvz2VEOSxsRU3wFMUwd99GJ8ebt-qjmC2hW8OM6Xzbg6JjdUwbJqRktApISWfJA=w1440-h576-no");
+        background-size: auto 421px;
         background-repeat: no-repeat;  
         background-attachment: fixed;
         margin-bottom: 30px;
@@ -116,8 +115,8 @@ p {
 @media (min-width: 768px) and (max-width: 991.98px) {
     .header{    
         height: 421px;
-        background-image: url("https://lh3.googleusercontent.com/FjBozaY1ND2irlIY1qydEU9dCJJPHOGmwJsx98E_9wrdzfsa2fRZAOealddtO05BaiRL8I-YvNs7qYyFbFA85j22yk7UiGNaWc8n93mzxmVdyxLeXL4XqKSzUsZj3Fn3X0E5PmPuBOBdDwuV1mDPbG1zxWSfq5ZRk9oxBMHRwloA17YusmlS_GJLT4SQyzao55D8nqneGcjzCl-MuqRLD6pzySGLXAtMWq5QxTc-QqgDs-ecNqx1x7VqzLZn72Kg-CREjTJs59WbfBbBk35TtBG_n8HX9vC7SIlh3I27dcCFzobWwKIWUUSKEf87OMXbfp3RgxPpdehBk1Su-ND1QtUl3iplnANj1bxNoPxav3HVkdooG5bbEfjaCyV6MHTpfrT9Tp0EbBKU3Fy-Aevej4kcmD6F4dujao5dCZUDYp8ICT9yPZCkq0ph5LVh8aN7XfqgW88n73R4DsSDJS-FLWo7DfKzbuchFrMTN4bww9glg49rxk9Uwe1oAGdbgwpcf-dnyDVVt8dir9_5HMs6sD_CAtPZzyLNUz_O_e4nCbXJEqO_X1Zs1iBxwxTtHG08XyIMo5JNzgFroX_6aGkcXdisAGlD3qoTsNDkUEW5KGsz1GiMhbvmXp3EPQJ0aLLS2XBZHVbak0b73V_eMUcSO7sS4TYJpKn-8-i5L3aOY3utWfjPlbJK8FPt5LqVzDHPIQZOp_zxhLfUVLnzjvqViBqL6zypCZbrAlkJq0YS5MbBSn7S4w=w1410-h550-no");
-        background-size: cover;
+        background-image: url("https://lh3.googleusercontent.com/SWqYPy8vsrTFNDPO1M8aXSTDhv_gH3b8Ef48gQuLtwMdFI9YIYE7CAecRBmc8uS5yoPXHGRereNkvi9RoMyQk_UiZ56t9HV9TtN8LokpMN8vfE6AqBi7tUTWsIjW7zrOwmCTXqJUGk9sOC-TiAU_QtfSeTscYhk_lVjUfRuOkTOKzmCKBOjMVCcLU8UwN3cWyrlwBI4xfjveNFQmkc9R6u3SVFIV82H-Kh-RHy23EWZxPmn9doLQ1XqEIgJh6ab2Tktv2RHa4Lx0zA6iLJlag4iE4U6X2oaT0PKqKyaQ1T3pksb4y9wTrroS1iUIK7TdbydFy1PutVMnUjMOuwmVoqC4lu0hsuOqwzrEEbyLxkI3-qVbuXkVnLDy8M-Mz90rthKEFagK2SyyKdyA4yn6Gctjs-JdO2DglKWOav8c23HKjrDpXJzMGXU24QLbsunEVd6FX5je1NS8_qvUqDlLkGRWJerX4a4F3J4jx_efkJ28BWyqCP1be4A8dY6os-dg5K5pvaQKYQNoktKZC1Gpa_KVhKnMcjKA7EdMWc6EkuORxojC6SLWO1nGqsIElcic5k0ybrF9dRsu1hMT_dPLZLDHVrByqSwWzjHDA04_KimOX5xH_SgxuP4mjFseFyNb6pqvKCg_B2YD7TArqyN2SUR2Vs9lkb2wzzZa7nNcX0JKHJVltZEm4lGIKYZdRTuC6aFx6jSXmo8heXxRf5dEMYrurENn0HfNpqNY4b_ItFirflX7gw=w1870-h615-no");
+        background-size: auto 421px;
         background-repeat: no-repeat;  
         background-attachment: fixed;
         margin-bottom: 45px;
@@ -141,8 +140,8 @@ p {
     
 .header{    
     height: 550px;
-    background-image: url("https://lh3.googleusercontent.com/FjBozaY1ND2irlIY1qydEU9dCJJPHOGmwJsx98E_9wrdzfsa2fRZAOealddtO05BaiRL8I-YvNs7qYyFbFA85j22yk7UiGNaWc8n93mzxmVdyxLeXL4XqKSzUsZj3Fn3X0E5PmPuBOBdDwuV1mDPbG1zxWSfq5ZRk9oxBMHRwloA17YusmlS_GJLT4SQyzao55D8nqneGcjzCl-MuqRLD6pzySGLXAtMWq5QxTc-QqgDs-ecNqx1x7VqzLZn72Kg-CREjTJs59WbfBbBk35TtBG_n8HX9vC7SIlh3I27dcCFzobWwKIWUUSKEf87OMXbfp3RgxPpdehBk1Su-ND1QtUl3iplnANj1bxNoPxav3HVkdooG5bbEfjaCyV6MHTpfrT9Tp0EbBKU3Fy-Aevej4kcmD6F4dujao5dCZUDYp8ICT9yPZCkq0ph5LVh8aN7XfqgW88n73R4DsSDJS-FLWo7DfKzbuchFrMTN4bww9glg49rxk9Uwe1oAGdbgwpcf-dnyDVVt8dir9_5HMs6sD_CAtPZzyLNUz_O_e4nCbXJEqO_X1Zs1iBxwxTtHG08XyIMo5JNzgFroX_6aGkcXdisAGlD3qoTsNDkUEW5KGsz1GiMhbvmXp3EPQJ0aLLS2XBZHVbak0b73V_eMUcSO7sS4TYJpKn-8-i5L3aOY3utWfjPlbJK8FPt5LqVzDHPIQZOp_zxhLfUVLnzjvqViBqL6zypCZbrAlkJq0YS5MbBSn7S4w=w1410-h550-no");
-    background-size: cover;
+    background-image: url("https://lh3.googleusercontent.com/SWqYPy8vsrTFNDPO1M8aXSTDhv_gH3b8Ef48gQuLtwMdFI9YIYE7CAecRBmc8uS5yoPXHGRereNkvi9RoMyQk_UiZ56t9HV9TtN8LokpMN8vfE6AqBi7tUTWsIjW7zrOwmCTXqJUGk9sOC-TiAU_QtfSeTscYhk_lVjUfRuOkTOKzmCKBOjMVCcLU8UwN3cWyrlwBI4xfjveNFQmkc9R6u3SVFIV82H-Kh-RHy23EWZxPmn9doLQ1XqEIgJh6ab2Tktv2RHa4Lx0zA6iLJlag4iE4U6X2oaT0PKqKyaQ1T3pksb4y9wTrroS1iUIK7TdbydFy1PutVMnUjMOuwmVoqC4lu0hsuOqwzrEEbyLxkI3-qVbuXkVnLDy8M-Mz90rthKEFagK2SyyKdyA4yn6Gctjs-JdO2DglKWOav8c23HKjrDpXJzMGXU24QLbsunEVd6FX5je1NS8_qvUqDlLkGRWJerX4a4F3J4jx_efkJ28BWyqCP1be4A8dY6os-dg5K5pvaQKYQNoktKZC1Gpa_KVhKnMcjKA7EdMWc6EkuORxojC6SLWO1nGqsIElcic5k0ybrF9dRsu1hMT_dPLZLDHVrByqSwWzjHDA04_KimOX5xH_SgxuP4mjFseFyNb6pqvKCg_B2YD7TArqyN2SUR2Vs9lkb2wzzZa7nNcX0JKHJVltZEm4lGIKYZdRTuC6aFx6jSXmo8heXxRf5dEMYrurENn0HfNpqNY4b_ItFirflX7gw=w1870-h615-no");
+    background-size: auto 550px;
     background-repeat: no-repeat;  
     background-attachment: fixed;
     margin-bottom: 45px;
@@ -204,34 +203,4 @@ p {
     color:#54585A;
 }
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Rubik&display=swap');
-
-
-/*           estilos CSS header Julieth                            */ 
-
-
-
-
-
-
-
-
-
-/*           estilos CSS main Paola                                */ 
-
-
-
-
-/*           estilos CSS main Dubenis                                */ 
-
-
-
-
-/*           estilos CSS footer Julieth                             */ 
-
-
-                        
-
-
-
-
 
