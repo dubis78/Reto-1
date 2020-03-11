@@ -14,7 +14,7 @@
 
 .header {
     padding-bottom: 400px;
-    background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/5c/Celular_marca_lg_refleja_cielo.jpeg");
+    background-image: url("https://d1q0twczwkl2ie.cloudfront.net/wp-content/uploads/2016/05/smartphone-1281632_1280.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -64,12 +64,12 @@ h1 {
     }
     #grupo {
         background-color: var(--verde-oscuro);
-        opacity: 0.8;
+        opacity: 0.9;
         padding-top: 60px;
     }
     .menuHeader {
         background-color: var(--verde-claro);
-        opacity: 0.8;
+        opacity: 0.9;
     }
     .copyRight {
         justify-content: center;
@@ -131,56 +131,31 @@ button {
         opacity: 1;
         text-align: center !important;
     }
-    .menuHeader {
-        background-color: var(--verde-oscuro);
-        opacity: 1;
-        .menuHeader {
-            background-color: var(--verde-claro);
-            opacity: 0.8;
-        }
-        .copyRight {
-            justify-content: center;
-            padding-left: 50%;
-            text-align: center !important;
-        }
-        #menufooter {
-            justify-content: center !important;
-            text-align: center !important;
-            margin-right: 0px;
-        }
-    }
-  
+}
+
+.footer{
+    border-top: 2px solid #b8b8b9;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-top: 120px;
+}
+
+#links-footer li{
+    list-style: none; 
+    line-height:30px;
+    text-align:right;
+    font-size: 15px;
+    font-family: 'Open Sans';
+    color:#54585A;
+    
+}
+#nombre-equipo-peque{
+    font-size: 16px;
+    font-family: 'Open Sans';
+    color:#54585A;
+}
 
 
-
-    /**/
-    /*           estilos CSS footer Angelica                            */
-    #container_footer {
-        padding-top: 5px;
-        padding-right: 10px;
-        padding-left: 10px;
-        display: flex;
-    }
-    #menuFooter {
-        /*background: ;*/
-        padding-top: 25px;
-        padding-right: 50px;
-        text-align: right;
-        text-align: right;
-    }
-    .titulosFooter {
-        color: #54585A;
-        font-family: 'Open Sans', sans-serif;
-        font-size: 14px;
-        font-weight: 200;
-    }
-    .copyRight {
-        font-family: 'Open Sans', sans-serif;
-        padding-left: 50px;
-        padding-top: 30px;
-        font-size: 14px;
-        color: #b8b8b9 !important;
-    }
 
 
 
