@@ -203,4 +203,42 @@ p {
     color:#54585A;
 }
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Rubik&display=swap');
+ /*Paola*/
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    --normal: 12px;
+}
+
+.container-equipo {
+    margin: 1rem;
+    padding: 1rem;
+}
+h1, h3, h4 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+h1, h3 {
+    align-items: center;
+    text-align: center;   
+    color:var(--verde-oscuro);
+}
+
+h4 {
+    padding-top: 10px;
+}
+p {
+    align-items: center;
+    display:inline-block; 
+    text-align: center;    
+}
+
+.container-descripcion { 
+    background-color: #b8b8b9;
+}
+
+.container-descripcion h3{
+    color:var(--verde-oscuro);
+}
 
